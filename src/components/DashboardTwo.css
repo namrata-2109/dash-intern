@@ -5,8 +5,8 @@
 }
 
 .left-margin {
-    width:4%;
-    height: 1850px;
+    width: 4%;
+    height: 2000px;
     background-color: rgb(17, 130, 182);
 }
 
@@ -31,6 +31,7 @@
     padding-right: 15px;
     margin-bottom: 30px;
 }
+
 .plain-card {
     height: 170px;
     width: 290px;
@@ -38,14 +39,66 @@
     border-radius: 8px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
+
+.one-card {
+    height: 170px;
+    width: 290px;
+    background: aliceblue;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: solid;
+    letter-spacing: -1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.number {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.view {
+    text-align: end;
+    color: rgb(65, 231, 231);
+    margin-right: 20px;
+}
+
+.two-card {
+    height: 170px;
+    width: 290px;
+    background: aliceblue;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: solid;
+    letter-spacing: -1px;
+    text-align: center;
+    padding-top: 45px;
+    text-transform: uppercase;
+}
+
 .middle-cards {
     height: 800px;
     width: 62%;
 }
+.know-more{
+    text-align: right;
+    letter-spacing: normal;
+    float: right;
+    color: rgb(65, 231, 231);
+    margin-bottom: -5px;
+}
 
 .right-cards {
-   margin-right: 15px;
-   width: 35%;
+    margin-right: 15px;
+    width: 35%;
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -56,19 +109,16 @@
     text-transform: uppercase;
     margin: 25px 0px 20px 30px;
 }
-.top-head{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-.search{
+
+
+.search {
     width: 400px;
     height: 45px;
     border-radius: 50px;
     border: 5px solid rgb(17, 130, 182);
-    
+
 }
+
 .right-compo {
     display: flex;
     flex-direction: row;
@@ -78,11 +128,18 @@
 .container {
     width: 100%;
 }
-
+.top-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 .class-card {
     width: 350px;
     /* height: 170px; */
     height: auto;
+    display: flex;
+    flex-direction: column;
     background: aliceblue;
     padding: 15px;
     font-family: 'Courier New', Courier, monospace;

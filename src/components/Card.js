@@ -2,7 +2,7 @@ import React from 'react';
 // import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import './DashboardTwo';
-
+import './DashboardTwo.css'
 const Card = (props) => {
     return (
         <>
@@ -19,9 +19,10 @@ const Card = (props) => {
                                 <li className='line'>{props.four}</li>
                                 <li className='line'>{props.five}</li>
                             </ol>
+                            <p className='know-more'>Know More</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </>

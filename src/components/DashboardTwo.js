@@ -14,7 +14,7 @@ const DashboardTwo = () => {
                     <div className='middle-cards'>
                         <div className='top-head'>
                             <h1 className='dash'>Dashboard</h1>
-                            <span className='search'/>
+                            <span className='search' />
                         </div>
                         <div className='top-body'>
                             {CardArray.map((value, index) => {
@@ -56,8 +56,13 @@ const DashboardTwo = () => {
                 <div className='four-cards'>
                     <span className='plain-card' />
                     <span className='plain-card' />
-                    <span className='plain-card' />
-                    <span className='plain-card' />
+                    <div className='one-card' >
+                        <p className='number'>number of unanswered questions</p>
+                        <p className='view'>View Questions</p>
+                    </div>
+                    <div className='two-card' >
+                        <p>Pages to answer unanswered questions</p>
+                    </div>
                 </div>
             </div>
 

@@ -18,18 +18,15 @@
         padding: 20px 40px;
     }
 }
+
 form{
-    /* margin: 80px auto; */
-    /* margin: 0 auto; */
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
    
 }
-/* .disabled-optn{
-    font-weight: lighter;
-} */
 
 textarea, select{
     width: 100%;
@@ -42,7 +39,7 @@ textarea, select{
     width: 100%;
     border-radius: 4px;
     resize: vertical;
-    border: 1px solid rgb(163, 158, 158);;
+    border: 1px solid rgb(163, 158, 158);
     margin-bottom: 20px;
 }
 

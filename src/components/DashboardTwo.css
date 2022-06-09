@@ -1,0 +1,185 @@
+.display {
+    display: flex;
+    flex-direction: row;
+    background: rgb(219, 239, 250);
+}
+
+.left-margin {
+    width:4%;
+    height: 1850px;
+    background-color: rgb(17, 130, 182);
+}
+
+.right-margin {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.four-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+.plain-card {
+    height: 170px;
+    width: 290px;
+    background: aliceblue;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.middle-cards {
+    height: 800px;
+    width: 62%;
+}
+
+.right-cards {
+   margin-right: 15px;
+   width: 35%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dash {
+    color: rgb(17, 130, 182);
+    text-transform: uppercase;
+    margin: 25px 0px 20px 30px;
+}
+.top-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    width: 400px;
+    height: 45px;
+    border-radius: 50px;
+    border: 5px solid rgb(17, 130, 182);
+    
+}
+.right-compo {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container {
+    width: 100%;
+}
+
+.class-card {
+    width: 350px;
+    /* height: 170px; */
+    height: auto;
+    background: aliceblue;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: solid;
+    letter-spacing: -2px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* .head{
+    background-color: aliceblue;
+    
+}
+.line{
+    background-color: aliceblue;
+} */
+.hor-cards {
+    width: 65%;
+}
+
+
+.top-card {
+    width: 450px;
+    height: 500px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.bottom-card {
+    height: 250px;
+    width: 450px;
+    background: aliceblue;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+
+.count {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.flexing {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-col {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.one-rect {
+    width: 190px;
+    height: 70px;
+    background-color: rgb(219, 221, 221);
+    margin-bottom: 10px;
+}
+
+.square {
+    width: 190px;
+    height: 180px;
+    background-color: rgb(219, 221, 221);
+}
+
+.circle {
+    background-color: rgb(219, 221, 221);
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 10px;
+}
+
+.two-rect {
+    width: 160px;
+    height: 90px;
+    background-color: rgb(219, 221, 221);
+}
+
+.bottom-rect {
+    width: 400px;
+    height: 90px;
+    background-color: rgb(219, 221, 221);
+}
